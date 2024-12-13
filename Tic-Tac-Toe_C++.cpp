@@ -10,8 +10,7 @@ bool gameOver = false;
 void DrawBoard()
 {
     system("cls");
-    cout << "\n Tic Tac Toe Board: \n";
-    cout << "\n";
+    cout << "\n Tic Tac Toe Board: \n"<<endl;
     cout << "Player 1 (X)  -  Player 2 (O)";
     cout << "\n\n";
     cout << "     |     |     \n";
@@ -96,7 +95,8 @@ int main()
             currentPlayer = 'O';
         }
         else 
-        { currentPlayer = 'X'; 
+        { 
+            currentPlayer = 'X'; 
         }
     }
     return 0;
